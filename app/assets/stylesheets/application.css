@@ -14,7 +14,8 @@
  *= require_self
  */
  body{
-   background-color: #D4CEB5;
+   /*background-color: #D4CEB5;*/
+   background-image: url("http://img.wallpaperfolder.com/f/4E83660E390D/kings-landing-ipad-air-iphone.jpg");
  }
  .houses{
    display: inline-block;
@@ -26,7 +27,10 @@
 
 h2, h1{
   font-family: 'MedievalSharp', cursive;
-text-align: center;
+  text-align: center;
+  color: grey;
+  text-shadow: 1px 1px 1px #fff;
+
 }
  img{
    height: 200px;
@@ -39,5 +43,31 @@ text-align: center;
   margin: 0 auto;
 }
 .show_page{
-padding: 50px;
+  padding: 50px;
+}
+.stark{
+  width: 25%;
+
+  display: flex;
+  align-items: center;
+  height: 200px;
+}
+/*#stark_img{
+  height: 100px;
+  width: 100px;
+}*/
+.character_page{
+  display: flex;
+
+  height: 470px;
+  justify-content: center;
+}
+.show_img{
+  height: 75px;
+  width: 75px;
+}
+.lannister{
+  margin-top: 200px;
+
+  height: 200px;
 }

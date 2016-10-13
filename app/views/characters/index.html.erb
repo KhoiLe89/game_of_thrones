@@ -1,3 +1,21 @@
 <h2> Characters </h2>
 
-<% @characters.each do |character| %>
+<div class ="character_page">
+<div class="stark">
+  <h1> House Stark </h1>
+  <% @stark.each do |character| %>
+  <img class="show_img" src="<%= character.img_url %>">
+  <% end %>
+</div>
+<div class = "lannister">
+  <h1> House Lannister </h1>
+  <% @lannister.each do |character| %>
+  <img class="show_img" src="<%= character.img_url %>">
+  <% end %>
+</div>
+<div class = "targaryen">
+  <h1>House Targaryen </h1>
+  <% @targaryen.each do |character| %>
+  <img class="show_img" src="<%= character.img_url %>">
+  <% end %>
+</div>
