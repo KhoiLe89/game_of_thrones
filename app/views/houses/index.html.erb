@@ -1,0 +1,8 @@
+<h2> Game of Thrones </h2>
+
+<% @houses.each do |house| %>
+<div class="houses">
+  <h2><a href="<%=house_path(house.id)%>"><%=house.name%><a></h2>
+<img src="<%=house.sigil%>">
+</div>
+<% end %>

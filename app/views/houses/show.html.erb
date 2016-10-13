@@ -1,0 +1,12 @@
+<h1> GAME of THRONES </h1>
+
+<h2> House <%=@house.name %> </h2>
+<h4> <%=@house.motto %> </h4>
+
+<div class="show_page">
+  <% @house.characters.each do |character| %>
+  <div class="character_logo">
+    <img src="<%= character.img_url %>">
+  </div>
+<% end %>
+</div>
