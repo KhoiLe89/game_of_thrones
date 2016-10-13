@@ -46,11 +46,9 @@ h2, h1{
   padding: 50px;
 }
 .stark{
-  width: 25%;
-
-  display: flex;
-  align-items: center;
   height: 200px;
+  display: flex;
+  justify-content: center;
 }
 /*#stark_img{
   height: 100px;
@@ -68,6 +66,5 @@ h2, h1{
 }
 .lannister{
   margin-top: 200px;
-
   height: 200px;
 }

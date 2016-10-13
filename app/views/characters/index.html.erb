@@ -5,6 +5,7 @@
   <h1> House Stark </h1>
   <% @stark.each do |character| %>
   <img class="show_img" src="<%= character.img_url %>">
+  <%= link_to character.name, character_path(character) %>
   <% end %>
 </div>
 <div class = "lannister">
